@@ -32,6 +32,8 @@ namespace webapi.Controllers
             modelBuilder
             .Entity<AddmissionTable>()
             .HasKey(d => d.AddmissionId);
+
+
         }
 
     }

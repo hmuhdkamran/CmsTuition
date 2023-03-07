@@ -21,6 +21,7 @@ namespace webapi.Controllers
         public IEnumerable<FeesTable> Get()
         {
             return _context.FeesTable;
+
         }
 
         // GET api/<FeesController>/5

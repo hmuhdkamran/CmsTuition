@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using webapi.DataModel;
 using Microsoft.EntityFrameworkCore;
-using static System.Reflection.Metadata.BlobBuilder;
+using webapi.Data;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,8 +12,8 @@ namespace webapi.Controllers
     [ApiController]
     public class AddmissionController : ControllerBase
     {
-        private readonly  Addmissioncontext _context;
-        public AddmissionController(Addmissioncontext context)
+        private readonly  DataContext _context;
+        public AddmissionController(DataContext context)
         {
             _context = context;
         }

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using webapi.Data;
+using webapi.Data.DataModel;
 using webapi.DataModel;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,9 +12,9 @@ namespace webapi.Controllers
     [ApiController]
     public class ExamController : ControllerBase
     {
-        private readonly ExamContext _context;
+        private readonly DataContext _context;
 
-        public ExamController(ExamContext context)
+        public ExamController(DataContext context)
         {
             _context = context;
         }

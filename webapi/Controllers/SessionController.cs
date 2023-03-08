@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using webapi.Data;
+using webapi.Data.DataModel;
 using webapi.DataModel;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,8 +12,8 @@ namespace webapi.Controllers
     [ApiController]
     public class SessionController : ControllerBase
     {
-        private readonly SessionContext _context;
-        public SessionController(SessionContext context)
+        private readonly DataContext _context;
+        public SessionController(DataContext context)
         {
             _context = context;
         }

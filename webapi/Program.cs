@@ -1,4 +1,5 @@
 using webapi.Controllers;
+using webapi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,16 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<Addmissioncontext>();
-builder.Services.AddDbContext<StudentContext>();
-builder.Services.AddDbContext<ClassContext>();
-builder.Services.AddDbContext<FeesContext>();
-builder.Services.AddDbContext<SessionContext>();
-builder.Services.AddDbContext<SubjectContext>();
-builder.Services.AddDbContext<AttendanceContext>();
-builder.Services.AddDbContext<TeacherContext>();
-builder.Services.AddDbContext<ExamContext>();
-builder.Services.AddDbContext<ResultContext>();
+builder.Services.AddDbContext<DataContext>();
 
 var app = builder.Build();
 

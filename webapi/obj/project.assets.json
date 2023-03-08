@@ -3727,11 +3727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
+      "projectUniqueName": "F:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "D:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
+      "projectPath": "F:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
       "packagesPath": "C:\\Users\\NAVEED SIRAJ\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CmsTuition\\webapi\\obj\\",
+      "outputPath": "F:\\Projects\\CmsTuition\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NAVEED SIRAJ\\AppData\\Roaming\\NuGet\\NuGet.Config",

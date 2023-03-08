@@ -3722,19 +3722,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NAVEED SIRAJ\\.nuget\\packages\\": {}
+    "C:\\Users\\hmuhd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
+      "projectUniqueName": "D:\\Testing\\Classes\\CmsTuition\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "D:\\Projects\\CmsTuition\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\NAVEED SIRAJ\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CmsTuition\\webapi\\obj\\",
+      "projectPath": "D:\\Testing\\Classes\\CmsTuition\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\hmuhd\\.nuget\\packages\\",
+      "outputPath": "D:\\Testing\\Classes\\CmsTuition\\webapi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NAVEED SIRAJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hmuhd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3742,6 +3747,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3804,7 +3810,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
